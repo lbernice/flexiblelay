@@ -1,6 +1,5 @@
 body,
-html,
-*{
+html{
     font-size: 10px;
     box-sizing: border-box;
     margin: 0;
@@ -26,10 +25,11 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .card-img{
     width: 100%;
+    object-fit: cover;
 }
 .card-title{
     font-size: 2.2rem;
